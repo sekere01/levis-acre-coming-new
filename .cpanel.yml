@@ -1,7 +1,1 @@
 
-
-   ---
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/levisacr/public_html/
-    - /bin/rsync -av . $DEPLOYPATH --exclude .git --exclude .cpanel.yml
